@@ -1,0 +1,36 @@
+.game {
+  text-align: center;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+
+.status {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.board {
+  display: inline-block;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  margin: 4px;
+  cursor: pointer;
+  background: #f2f2f2;
+  border: 2px solid #333;
+  outline: none;
+}
+
+.reset-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
